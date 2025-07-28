@@ -1,5 +1,5 @@
 import typescript from "@rollup/plugin-typescript"
-import { terser } from "rollup-plugin-terser"
+import terser from "@rollup/plugin-terser"
 
 const FRAMEWORK = process.env.FRAMEWORK || "index"
 const DECLARATIONS = process.env.DECLARATIONS || false
