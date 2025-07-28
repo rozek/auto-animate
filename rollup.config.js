@@ -13,7 +13,7 @@ const external = [
   "process",
   "solid-js",
   "rollup-plugin-terser",
-  "../index",
+//  "../index",
 ]
 
 function createOutput() {
